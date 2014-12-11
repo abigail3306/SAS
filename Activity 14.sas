@@ -1,4 +1,5 @@
 * Activity 14;
+* Tests and confidence intervals for one or two populations;
 
 title '-------- Problem A & B Data --------';
 data grades;

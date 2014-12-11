@@ -1,6 +1,6 @@
 * Abigail C. Liskey
 * Activity 11
-* Practicing do loops 
+* Using simulation to calibrate your qq-plot interpretation 
 
 * Question 1;
 title 'Normal distribution between 1-10';

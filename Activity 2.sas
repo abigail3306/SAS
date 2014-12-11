@@ -1,5 +1,5 @@
 * Activity 2
-* Proc sort and getting your data into SAS
+* Proc sort and getting your data into SAS;
 
 data USPRESIDENTS;
 input PRESIDENT $ PARTY $ NUMBER;

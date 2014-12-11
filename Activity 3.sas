@@ -1,5 +1,5 @@
 *----------------Activity 3----------------;
-* Getting your data into SAS
+* Getting your data into SAS;
 
 * Question 1
 title 'Survey 2';
