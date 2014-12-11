@@ -1,6 +1,7 @@
 * Activity 7
 * Abigail Liskey
 * 2014-09-24;
+* Numeric and graphical summaries of categorical variables
 
 * Question 1;
 data politics;

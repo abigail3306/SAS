@@ -1,5 +1,5 @@
-*-----------Activity 5------------;
-
+*-----------Activity 6------------;
+* Numeric and graphical summaries of quantitative variables
 title 'JMU Parking Data';
 data parking;
 infile 'F:/SAS/ParkingJMU.txt' missover DLM = '09'X;

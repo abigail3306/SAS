@@ -1,4 +1,7 @@
 *----------------Activity 3----------------;
+* Getting your data into SAS
+
+* Question 1
 title 'Survey 2';
 data survey;
 input @12 Q1 5.2 @28 Q2 $6. @48 Q3 $3. @63 Q4 $3. @77 Q5 $2. @94 Q6 $3. @108 Q7 1. 

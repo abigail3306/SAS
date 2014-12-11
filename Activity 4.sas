@@ -3,7 +3,7 @@
 Activity 4
 Author: Abigail Liskey
 Date Created: September 8th 2014
-Purpose: Assessment tool for PROC SORT and data input
+Purpose: Getting your data into SAS and creating new data
 
 -------------------------------------------------------;
 title 'HANDINJ';

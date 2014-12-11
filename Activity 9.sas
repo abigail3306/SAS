@@ -1,4 +1,6 @@
 * Activity 9
+* More on reading data from an external file
+
 * Question 1;
 data VOTE;
 infile 'F:/SAS/voting.txt' DLM='09'x;

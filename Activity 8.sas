@@ -4,6 +4,7 @@ reason for this is that PROC SORT as well as other SAS PROCs will only operate o
 variables. This causes issues (as seen in activity 7) if we have formatted the variables using a PROC FORMAT.  The "fixes" 
 for these issues are complicated - far more time consuming than writing a few IF-THEN-ELSE statements.;
 
+* Getting help and data storage
 *-------------Question 1------------;
 TITLE 'Ques 1';
 DATA parking;
