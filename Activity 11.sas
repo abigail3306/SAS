@@ -1,5 +1,6 @@
 * Abigail C. Liskey
 * Activity 11
+* Practicing do loops 
 
 * Question 1;
 title 'Normal distribution between 1-10';
