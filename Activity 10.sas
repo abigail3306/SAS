@@ -1,5 +1,5 @@
 * Activity 10;
-* Practicing do loops
+* Generating random observations and do-loops
 
 * Question 1;
 title 'Doloop';
