@@ -1,4 +1,4 @@
-***Activity 20***;
+* Activity 20 *;
 * longitudinal data, reading and manipulating date variables;
 
 *----question 1---;
@@ -39,9 +39,9 @@ run;
 *----additional info---;
 *---Example 1--;
 data dates;
-input @1 EX1 MMDDYY10. @12 EX2 MMDDYY8. @21 EX3 DATE9. 
+input @1 EX1 MMDDYY10. @12 EX2 MMDDYY8. @21 EX3 DATE9.
 	@31 EX4 DATE7.   @39 EX5 MONYY7.  @47 EX6 DATE9. @57 EX7 YYMMDD8. ;
-FORMAT EX1-EX2 DATE8. EX3 WORDDATE18. EX4 WEEKDATE29. EX5 MMDDYY8. EX6 DAY2. 
+FORMAT EX1-EX2 DATE8. EX3 WORDDATE18. EX4 WEEKDATE29. EX5 MMDDYY8. EX6 DAY2.
 	EX7 MMDDYY10.;
 datalines;
 01/01/1960 01011960 05Jan1960 06Jan60 Jan1960 17-Jan-60 19591230
@@ -49,5 +49,3 @@ datalines;
 run;
 proc print data=dates noobs;
 run;
-
-
