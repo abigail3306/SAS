@@ -1,10 +1,10 @@
 *-----------Activity 6------------;
 * Numeric and graphical summaries of quantitative variables;
-
+ 
 title 'JMU Parking Data';
 data parking;
 infile 'F:/SAS/ParkingJMU.txt' missover DLM = '09'X;
-input ID MILES YEARS JOB CARPOOL CAR PERMIT METERS BUS USEBUS MON TUE WED THUR FRI NDRIVE NBUS NACTIVE IMPED $; 
+input ID MILES YEARS JOB CARPOOL CAR PERMIT METERS BUS USEBUS MON TUE WED THUR FRI NDRIVE NBUS NACTIVE IMPED $;
 run;
 
 
