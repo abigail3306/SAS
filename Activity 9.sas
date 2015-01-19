@@ -1,6 +1,6 @@
 * Activity 9
 * More on reading data from an external file
-
+ 
 * Question 1;
 data VOTE;
 infile 'F:/SAS/voting.txt' DLM='09'x;
@@ -30,4 +30,3 @@ plot VAR3 * VAR4;
 id VAR3;
 label VAR3 = 'Dem1984' VAR4 = 'Southern State or not';
 run;
-
