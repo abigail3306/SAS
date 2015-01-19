@@ -1,7 +1,7 @@
 /* ACTIVITY 17*/;
 /* Abigail C. Liskey*/;
 * Numeric and graphical summaries for 2 quantitative variables;
-
+ 
 * Question 1;
 libname abigail 'F:/SAS/Activities';
 
@@ -40,8 +40,8 @@ symbol3 c=green v=none w=3 l=4 i=RLCLI95;*CLI=95% confidence limits for INDIVIDU
 proc gplot data = abigail.voting;
 by VAR4;
 title 'Popular Votes for Democrat Presidential Candidates';
-plot VAR3*VAR2=1 
-	 VAR3*VAR2=2  
+plot VAR3*VAR2=1
+	 VAR3*VAR2=2
 	 VAR3*VAR2=3/overlay haxis=20 to 60 by 5 vaxis=20 to 60 by 5;
 run;
 quit;
