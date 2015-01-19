@@ -1,6 +1,6 @@
 * Activity 12;
 * Assigning Experimental Units to Treatments I.E. Who Gets What?;
-
+ 
 *-----------------------
 ACTIVITY 12
 -----------------------;
@@ -43,19 +43,19 @@ RUN;
 *Check number in each group;
 PROC FREQ DATA=bal_grouped;
 TABLES group;
-RUN; 
+RUN;
 
 *---UnBalanced case---;
 
 *Assign to groups;
 DATA unbalanced;
 *assuming subjects numbered 1-88;
-DO ID=1 TO 88;	
-	u=RANUNI(45957);	
-	IF u<=0.5 THEN group='NV';	
-	ELSE group='VV';	
+DO ID=1 TO 88;
+	u=RANUNI(45957);
+	IF u<=0.5 THEN group='NV';
+	ELSE group='VV';
 	OUTPUT;
-END; 
+END;
 KEEP ID group;
 RUN;
 
@@ -75,21 +75,21 @@ RUN;
 
 *create data sets;
 DATA Parta;N=50;
-DO i=1 TO N;	
+DO i=1 TO N;
 	x1=10+10*RANNOR(9870);
 	OUTPUT;
 END;
 KEEP x1;
 RUN;
 DATA Partb;N=500;
-DO i=1 TO N;	
+DO i=1 TO N;
 	x2=10+10*RANNOR(9870);
 	OUTPUT;
 END;
 KEEP x2;
 RUN;
 DATA Partc;N=5000;
-DO i=1 TO N;	
+DO i=1 TO N;
 	x3=10+10*RANNOR(9870);
 	OUTPUT;
 END;
