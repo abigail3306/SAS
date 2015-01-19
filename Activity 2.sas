@@ -1,6 +1,6 @@
 * Activity 2
 * Proc sort and getting your data into SAS;
-
+ 
 data USPRESIDENTS;
 input PRESIDENT $ PARTY $ NUMBER;
 datalines;
@@ -38,7 +38,7 @@ title 'Column Input 2';
 data uspres2;
 input Pres $ 1-11 Party $ 13-13 No 15-16;
 datalines;
-Adams       F 2 
+Adams       F 2
 Abe Lincoln R 16
 Grant       R 18
 Kennedy     D 35
@@ -96,7 +96,7 @@ run;
 *------------------Question 19-------------------------;
 title 'Ques 19';
 data pumpkin;
-input @1 Name $16. @21 Type $1. @23 Month $2. @26 Day $2. @29 Year $4. 
+input @1 Name $16. @21 Type $1. @23 Month $2. @26 Day $2. @29 Year $4.
 @34 Score1 3.1 @41 Score3 4.1 @46 Score4 3.1 @50 Score5 2.1 @37 Score2 4.1 ;
 datalines;
 Alicia Grossman  13 c 10-28-2003 7.8 6.5 7.2 8.0 79
