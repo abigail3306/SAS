@@ -1,6 +1,6 @@
 * Activity 10;
 * Generating random observations and do-loops
-
+ 
 * Question 1;
 title 'Doloop';
 Data doloop;
