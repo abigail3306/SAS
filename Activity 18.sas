@@ -1,7 +1,7 @@
 *------Activity 18---------;
 *-----Question 1-----;
 * tests for two categorical variables;
-
+ 
 title 'Chisquare Densities';
 data chisquare;
 do x=0.0 to 10 by 0.05;
@@ -100,7 +100,7 @@ else Age='15-54';
 if death_location=3 then Loc='Chronic-care';
 else if death_location=2 then Loc='Acute-care';
 else Loc='Home';
-label Loc='Location of Death' 
+label Loc='Location of Death'
 deaths='Number of Deaths';
 datalines;
 1	1	94	1	2	418	1	3	23
