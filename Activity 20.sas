@@ -1,6 +1,6 @@
 * Activity 20 *;
 * longitudinal data, reading and manipulating date variables;
-
+ 
 *----question 1---;
 data dates;
 input @1 EX1 MMDDYY10. @12 EX2 MMDDYY8. @21 EX3 DATE9. @31 EX4 DATE7. @39 EX5 MONYY7. @47 EX6 DATE9. @57 EX7 YYMMDD8. ;
