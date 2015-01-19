@@ -1,9 +1,9 @@
 *-----------------------------------Code for Activity 8-------------------------------------;
-*Rather than using PROC FORMAT to recode the variables here we will revert to using IF-THEN-ELSE statements. The 
-reason for this is that PROC SORT as well as other SAS PROCs will only operate on the raw/unformatted values of 
-variables. This causes issues (as seen in activity 7) if we have formatted the variables using a PROC FORMAT.  The "fixes" 
+*Rather than using PROC FORMAT to recode the variables here we will revert to using IF-THEN-ELSE statements. The
+reason for this is that PROC SORT as well as other SAS PROCs will only operate on the raw/unformatted values of
+variables. This causes issues (as seen in activity 7) if we have formatted the variables using a PROC FORMAT.  The "fixes"
 for these issues are complicated - far more time consuming than writing a few IF-THEN-ELSE statements.;
-
+ 
 * Getting help and data storage;
 *-------------Question 1------------;
 TITLE 'Ques 1';
