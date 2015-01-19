@@ -1,6 +1,6 @@
 *Activity 15;
 * tests and confidence intervals for one or two populations;
-
+ 
 *Question 2a;
 title 'Human data';
 data Human;
