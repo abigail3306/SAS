@@ -1,6 +1,6 @@
 *Activity 16;
 * numeric and graphical summaries for two quantitative variables;
-
+ 
 *----Read in Data-----;
 data utility;
 infile 'F:/SAS/Activities/utility2.txt';
