@@ -1,6 +1,4 @@
 Title: SAS Coursework
-Ownership: Abigail Liskey
-	SAS - Abigail Liskey
 Course/Project: SAS Data Management and Programming
 University/Institution: James Madison University
 Written in: SAS
